@@ -1,10 +1,10 @@
-import './App.css';
-import 'https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap';
+import React from "react";
+import Thumbnail from "./components/Thumbnail"
 
 function App() {
   return (
     <div className="App">
-
+        <Thumbnail />
     </div>
   );
 }

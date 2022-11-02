@@ -1,0 +1,31 @@
+.c-btnPlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #FFFFFF25 ;
+    color: var(--pure-white);
+    font-weight: var(--weight-medium);
+    font-size: var(--heading-xs);
+
+    border-radius: 28.5px;
+
+    min-width: 117px;
+    min-height: 48px;
+
+    position: absolute;
+    top: 50;
+    left: 50;
+    right: 50;
+    bottom: 50;
+
+    padding: .2rem .4rem;
+
+    /* padding: 1rem; */
+}
+
+.c-btnPlay img{
+    margin-right: 1.5rem;
+}
