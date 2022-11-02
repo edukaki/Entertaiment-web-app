@@ -1,0 +1,14 @@
+.c-thumbnail__container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    min-width: 164px;
+    min-height: 110px;
+}
+
+.c-thumbnail__container:hover{
+    cursor: pointer;
+    filter: brightness(.7);
+}
