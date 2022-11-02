@@ -1,0 +1,23 @@
+.c-bookmark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    position: absolute;
+    margin-top: .5rem;
+    margin-left: 17rem;
+    
+    background-color: var(--black-transparent);
+    border-radius: 50%;
+}
+
+.c-bookmark:hover{
+    background-color: var(--pure-white);
+}
+
+.c-bookmark:active{
+    background-color: var(--black-transparent);
+}
+.c-bookmark-icon{
+    padding: .5rem
+}
