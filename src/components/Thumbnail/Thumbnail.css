@@ -3,9 +3,12 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    border-radius: 8px;
     
     min-width: 164px;
     min-height: 110px;
+
+    overflow: hidden;
 }
 
 .c-thumbnail__container:hover{
