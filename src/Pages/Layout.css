@@ -11,7 +11,7 @@
     display: block;
     min-width: 25px;
     min-height: 20px;
-    background-image: url(../../img/logo.svg);
+    background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -27,6 +27,11 @@
 
 .c-navbar__icon{
     padding: .75rem;
+    fill:#5A698F;
+}
+
+.active{
+    fill: var(--pure-white);
 }
 
 .c-navbar__avatar{
