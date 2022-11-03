@@ -1,0 +1,35 @@
+.c-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--semi-dark-blue);
+
+    /* padding: .75rem; */
+}
+
+.c-navbar__logo{
+    display: block;
+    min-width: 25px;
+    min-height: 20px;
+    background-image: url(../../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c-navbar__pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style-type: none;
+    padding: 0;
+}
+
+.c-navbar__icon{
+    padding: .75rem;
+}
+
+.c-navbar__avatar{
+    width: 30px;
+    height: 30px;
+}
