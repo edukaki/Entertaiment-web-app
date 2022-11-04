@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, NavLink, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 import { ReactComponent as AllIcon } from '../img/icon-nav-home.svg'
 import { ReactComponent as MoviesIcon } from '../img/icon-nav-movies.svg'
 import { ReactComponent as SeriesIcon } from '../img/icon-nav-tv-series.svg'
@@ -11,7 +11,7 @@ import './Layout.css'
 const Layout = () => {
 
     return (
-        <BrowserRouter>
+        <>
             <nav className='c-navbar'>
                 <div className='c-navbar__logo'></div>
                 <ul className='c-navbar__pages'>
@@ -36,7 +36,7 @@ const Layout = () => {
                 <div><img className='c-navbar__avatar' src={avatar} alt='avatar' /></div>
             </nav>
             <Outlet />
-        </BrowserRouter>
+        </>
 
     )
 }
