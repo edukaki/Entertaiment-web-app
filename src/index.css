@@ -45,6 +45,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container{
+  padding: 0 1rem;
+}
+
 @media screen and(min-width: 768px) {
   body{
     font-size: var(--body-lm);
