@@ -8,7 +8,8 @@ const Gallery = (props) => {
     return (
         <div className='c-gallery container'>
             {props.data.map((data)=> (
-                <MovieCard data={data} key={uuidv4()}/>
+                props.filter === data.category || props.filter === "all" ?
+                <MovieCard data={data} key={uuidv4()}/> : ""
             ))}
         </div>
     )

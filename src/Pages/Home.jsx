@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
             <Title text="Recommended for you"/>
-            <Gallery data={data} />
+            <Gallery data={data} filter="all"/>
         </>
     )
 }
