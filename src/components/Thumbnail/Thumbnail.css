@@ -5,13 +5,17 @@
     position: relative;
     border-radius: 8px;
     
-    min-width: 164px;
-    min-height: 110px;
-
+    
     overflow: hidden;
 }
 
 .c-thumbnail__container:hover{
     cursor: pointer;
     filter: brightness(.7);
+}
+
+.c-thumbnail__container img{
+    width: 100%;
+    height: 100%;
+
 }
