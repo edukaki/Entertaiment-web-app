@@ -35,9 +35,11 @@ body {
   padding: 0;
 
   background-color: var(--dark-blue);
+  color: var(--pure-white);
 
   font-family: var(--font-family);
   font-size: var(--body-s);
+  font-weight: var(--weight-light);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
