@@ -1,0 +1,5 @@
+.c-title__section{
+    color: var(--pure-white);
+    font-size: var(--heading-xs);
+    font-weight: var(--weight-light);
+}
