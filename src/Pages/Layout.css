@@ -11,7 +11,7 @@
     display: block;
     min-width: 25px;
     min-height: 20px;
-    background-image: url(../img/logo.svg);
+    background-image: url(../../public/img/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
