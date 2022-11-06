@@ -7,7 +7,7 @@ const Bookmarked = (props) => {
     return (
         <>
             <Title text="Bookmarked"/>
-            <Gallery data={props.data} filter="Movie"/>
+            <Gallery data={props.data} filter="bookmark"/>
         </>
     )
 }
