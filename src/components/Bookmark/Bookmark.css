@@ -1,14 +1,22 @@
-.c-bookmark{
+.c-bookmark__container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: right;
     align-self: flex-start;
     position: absolute;
-    margin-top: .5rem;
-    margin-left: 17rem;
+    width: 100%;
+    /* margin-top: .5rem; */
+    /* margin-left: 17rem; */
     
+}
+
+.c-bookmark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--black-transparent);
     border-radius: 50%;
+    margin-right: .8rem;
+    margin-top: .8rem;
 }
 
 .c-bookmark:hover{
