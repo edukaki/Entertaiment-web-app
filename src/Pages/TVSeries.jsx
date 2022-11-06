@@ -2,14 +2,12 @@ import React from 'react'
 import Gallery from '../components/Gallery'
 import Title from '../components/Title'
 
-import data from '../data/data.json'
-
-const TVSeries = () => {
+const TVSeries = (props) => {
 
     return (
         <>
             <Title text="TV Series"/>
-            <Gallery data={data} filter="TV Series"/>
+            <Gallery data={props.data} filter="TV Series"/>
         </>
     )
 }

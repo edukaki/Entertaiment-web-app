@@ -2,14 +2,12 @@ import React from 'react'
 import Gallery from '../components/Gallery'
 import Title from '../components/Title'
 
-import data from '../data/data.json'
-
-const Home = () => {
+const Home = (props) => {
 
     return (
         <>
             <Title text="Recommended for you"/>
-            <Gallery data={data} filter="all"/>
+            <Gallery data={props.data} filter="all"/>
         </>
     )
 }

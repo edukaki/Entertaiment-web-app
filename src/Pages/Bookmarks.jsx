@@ -2,14 +2,12 @@ import React from 'react'
 import Gallery from '../components/Gallery'
 import Title from '../components/Title'
 
-import data from '../data/data.json'
-
-const Bookmarked = () => {
+const Bookmarked = (props) => {
 
     return (
         <>
             <Title text="Bookmarked"/>
-            <Gallery data={data} filter="Movie"/>
+            <Gallery data={props.data} filter="Movie"/>
         </>
     )
 }
