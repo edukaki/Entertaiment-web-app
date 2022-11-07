@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Bookmarked from "./Pages/Bookmarks";
 import Home from "./Pages/Home";
@@ -8,13 +8,11 @@ import TVSeries from "./Pages/TVSeries";
 import media from './data/data.json'
 
 function App() {
+  
+  const [data, setData] = useState(() => 
+  JSON.parse(localStorage.getItem("data")) || media)
 
-    useEffect(() => {
-        localStorage.setItem("data",JSON.stringify(media))
-    })
-
-    const data = JSON.parse(localStorage.getItem("data"));
-    console.log(data)
+  useEffect(() => data.length >1 ? localStorage.setItem("data", JSON.stringify(data)) : data,[data])
 
   return (
     <Router>
